@@ -1,3 +1,8 @@
+
+values = input('enter words seperated by space: ')
+s = set(int (x) for x in values.split())
+print(s)
+
 a = input('enter subjects of student a  ')
 std_a = set(a.split())
 b = input('enter subjects of student b  ')
